@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @font-face {
+      font-family: 'Outfit';
+      src: url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+    }
+
+    @font-face {
+      font-family: 'Young-serif';
+      src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf');
+    }
+
+    p,li,h5 {
+      font-family: 'Young-serif', serif;
+      font-weight: lighter;
+    }
+
+    h1,h2,h3 {
+      font-family: 'Outfit', serif;
+    }
+
+    h2 {
+      color: rgb(131, 82, 39);
+    }
+
+    h3 {
+      color: rgb(130, 58, 130);
+    }
+
+    h3 {
+      margin: 0;
+      padding: 0;
+    }
+
+    .body {
+      background-color: beige;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-block: 5rem;
+    }
+
+    img {
+      border-radius: 10px;
+    }
+
+    .container {
+      padding: 1.5rem;
+      background-color: white;
+      max-width: 30%;
+      border-radius: 20px;
+    }
+
+    .titulo {
+      display: flex;
+      flex: start;
+    }
+
+    .div-preparation {
+      background-color: rgba(233, 178, 203, 0.195);
+      border-radius: 10px;
+      padding: 0.5rem 1rem;
+    }
+
+    .imagen {
+      display: flex;
+      justify-content: center;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: end;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.348);
+    }
+    .flex-container {
+      max-width: 30%;
+    }
+
+    .normal-text {
+      font-weight: 400;
+    }
+
+    .bolder-table-text {
+      font-weight: 700;
+      color: brown;
+    }
+
+  </style>
+</head>
+
+<body class="body">
+
+  <div class="container">
+
+    <div class="imagen">
+      <img width="100%" src="assets/images/image-omelette.jpeg" alt="omelettefoto">
+    </div>
+
+    <h1 class="titulo">Simple Omelette Recipe</h1>
+
+    <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
+      to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+    </p>
+
+    <div class="div-preparation">
+      
+      <h3>Preparation time</h3>
+      
+      <ul>
+        <li>Total: Approximately 10 minutes</li>
+        <li>Preparation: 5 minutes</li>
+        <li>Cooking: 5 minutes</li>
+      </ul>
+    </div>
+
+    <div>
+      
+      <h2>Ingredients</h2>
+      
+      <ul>
+        <li>2-3 large eggs</li>
+        <li> Salt, to taste</li>
+        <li>Pepper, to taste</li>
+        <li>tablespoon of butter or oil</li>
+        <li>1 Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+      </ul>
+    </div>
+    <hr>
+
+    <h2>Instructions</h2>
+
+    <ol>
+      <li>Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+        You can add a tablespoon of water or milk for a fluffier texture.</li>
+      <li> Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.</li>
+      <li>Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+        the eggs evenly coat the surface.</li>
+      <li>Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the
+        middle, sprinkle your chosen fillings over one half of the omelette.</li>
+      <li>Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the
+        fillings. Let it cook for another minute, then slide it onto a plate.</li>
+      <li>Enjoy: Serve hot, with additional salt and pepper if needed.</li>
+    </ol>
+    <hr>
+
+    <h2>Nutrition</h2>
+    <p>The table below shows nutritional values per serving without the additional fillings.
+    </p>
+    <div class="fixed-width-container">
+      <div class="flex-container">
+        <h5 class="normal-text">Calories</h5>
+        <h5 class="bolder-table-text">277kcal</h5>
+      </div>
+      <div class="flex-container">
+        <h5 class="normal-text">Carbs</h5>
+        <h5 class="bolder-table-text">0g</h5>
+      </div>
+      <div class="flex-container">
+        <h5 class="normal-text">Protein</h5>
+        <h5 class="bolder-table-text">20g</h5>
+      </div>
+      <div class="flex-container">
+        <h5 class="normal-text">Fat</h5>
+        <h5 class="bolder-table-text">22g</h5>
+      </div>
+    </div>
+
+    <!-- lito puej chau -->
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </div>
+
+</body>
+
+</html>
